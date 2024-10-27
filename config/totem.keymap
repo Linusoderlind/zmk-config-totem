@@ -44,6 +44,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
