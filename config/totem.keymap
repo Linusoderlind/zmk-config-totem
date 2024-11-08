@@ -153,7 +153,7 @@
 
             bindings = <
         &kp EXCL     &kp RA(NUMBER_2)  &kp HASH       &kp DLLR           &kp PRCNT            &kp CARET     &kp AMPS        &kp RS(U)   &kp POUND   &kp LS(NUMBER_2)
-        &kp RA(A)    &trans            &kp RA(S)      &kp LS(N7)         &kp RA(UNDER)        &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
+        &kp RA(A)    &kp LS(NUMBER_2)  &kp POUND      &kp LS(EQUAL)      &kp LS(N0)           &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
 &trans  &kp RA(F18)  &kp RA(F19)       &kp BACKSLASH  &kp RA(BACKSLASH)  &kp LS(BACKSLASH)    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH          &trans
                                        &trans         &gif               &mo ADJ              &trans        &kp C_PP        &trans
             >;
