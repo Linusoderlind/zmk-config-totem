@@ -10,12 +10,11 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
+#include <locale/keys_sv.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-
-#include <locale/keys_sv.h>
 
 #define BASE 0
 #define NAV  1
@@ -100,10 +99,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W  &kp F                              &kp P        &kp B              &kp J            &kp L              &kp U                        &kp Y    &kp LEFT_BRACKET
-         &kp A  &kp R  &kp S                              &kp T        &kp G              &kp M            &kp N              &kp E                        &kp I    &kp O
-&kp TAB  &kp Z  &kp X  &kp C                              &kp D        &kp V              &kp K            &kp H              &kp COMMA                    &kp DOT  &kp SEMICOLON     &kp SQT
-                       &mt_custom LEFT_COMMAND BACKSPACE  &lt NAV TAB  &mt LCTRL SPACE    &kp RIGHT_SHIFT  &lt SYM BACKSPACE  &mt_custom RIGHT_ALT DELETE
+         &kp Q                      &kp W                      &kp F                              &kp P                    &kp B              &kp J            &kp L                     &kp U                        &kp Y                       &kp LEFT_BRACKET
+         &mt_custom LEFT_COMMAND A  &mt_custom LEFT_CONTROL R  &mt_custom LEFT_ALT S              &mt_custom LEFT_SHIFT T  &kp G              &kp M            &mt_custom RIGHT_SHIFT N  &mt_custom RIGHT_ALT E       &mt_custom RIGHT_CONTROL I  &mt_custom RIGHT_GUI O
+&kp TAB  &kp Z                      &kp X                      &kp C                              &kp D                    &kp V              &kp K            &kp H                     &kp COMMA                    &kp DOT                     &kp SEMICOLON           &kp SQT
+                                                               &mt_custom LEFT_COMMAND BACKSPACE  &lt NAV TAB              &mt LCTRL SPACE    &kp RIGHT_SHIFT  &lt SYM BACKSPACE         &mt_custom RIGHT_ALT DELETE
             >;
         };
 
