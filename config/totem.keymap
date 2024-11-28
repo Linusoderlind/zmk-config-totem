@@ -110,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q                      &kp W                      &kp F                  &kp P                    &kp B        &kp J            &kp L                     &kp U                        &kp Y                       &kp SV_A_RING
-         &mt_custom LEFT_COMMAND A  &mt_custom LEFT_CONTROL R  &mt_custom LEFT_ALT S  &mt_custom LEFT_SHIFT T  &kp G        &kp M            &mt_custom RIGHT_SHIFT N  &mt_custom LEFT_ALT E        &mt_custom RIGHT_CONTROL I  &mt_custom RIGHT_GUI O
-&kp TAB  &kp Z                      &kp X                      &kp C                  &kp D                    &kp V        &kp K            &kp H                     &kp COMMA                    &kp DOT                     &kp SV_O_UMLAUT         &kp SV_A_UMLAUT
-                                                               &mt LEFT_GUI DELETE    &lt NAV SPACE            &lt 3 TAB    &kp RIGHT_SHIFT  &lt SYM BACKSPACE         &mt_custom RIGHT_ALT DELETE
+         &kp Q                      &kp W                      &kp F                    &kp P                    &kp B        &kp J            &kp L                     &kp U                        &kp Y                       &kp SV_A_RING
+         &mt_custom LEFT_COMMAND A  &mt_custom LEFT_CONTROL R  &mt_custom LEFT_ALT S    &mt_custom LEFT_SHIFT T  &kp G        &kp M            &mt_custom RIGHT_SHIFT N  &mt_custom LEFT_ALT E        &mt_custom RIGHT_CONTROL I  &mt_custom RIGHT_GUI O
+&kp TAB  &kp Z                      &kp X                      &kp C                    &kp D                    &kp V        &kp K            &kp H                     &kp COMMA                    &kp DOT                     &kp SV_O_UMLAUT         &kp SV_A_UMLAUT
+                                                               &mt LEFT_CONTROL DELETE  &lt NAV SPACE            &lt 3 TAB    &kp RIGHT_SHIFT  &lt SYM BACKSPACE         &mt_custom RIGHT_ALT DELETE
             >;
         };
 
