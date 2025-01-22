@@ -120,10 +120,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q                      &kp W                      &kp F                    &kp P                    &kp B        &kp J            &kp L                     &kp U                        &kp Y                       &kp SV_A_RING
-         &mt_custom LEFT_COMMAND A  &mt_custom LEFT_CONTROL R  &mt_custom LEFT_ALT S    &mt_custom LEFT_SHIFT T  &kp G        &kp M            &mt_custom RIGHT_SHIFT N  &mt_custom LEFT_ALT E        &mt_custom RIGHT_CONTROL I  &mt_custom RIGHT_GUI O
-&kp TAB  &kp Z                      &kp X                      &kp C                    &kp D                    &kp V        &kp K            &kp H                     &kp COMMA                    &kp DOT                     &kp SV_O_UMLAUT         &kp SV_A_UMLAUT
-                                                               &mt LEFT_CONTROL DELETE  &lt NAV SPACE            &lt 3 TAB    &kp RIGHT_SHIFT  &lt SYM BACKSPACE         &mt_custom RIGHT_ALT DELETE
+         &kp Q                      &kp W                      &kp F                  &kp P                    &kp B        &kp J    &kp L                     &kp U                        &kp Y                       &kp SV_A_RING
+         &mt_custom LEFT_COMMAND A  &mt_custom LEFT_CONTROL R  &mt_custom LEFT_ALT S  &mt_custom LEFT_SHIFT T  &kp G        &kp M    &mt_custom RIGHT_SHIFT N  &mt_custom LEFT_ALT E        &mt_custom RIGHT_CONTROL I  &mt_custom RIGHT_GUI O
+&kp TAB  &kp Z                      &kp X                      &kp C                  &kp D                    &kp V        &kp K    &kp H                     &kp COMMA                    &kp DOT                     &kp SV_O_UMLAUT         &kp SV_A_UMLAUT
+                                                               &mt ESC DELETE         &lt NAV SPACE            &lt 3 TAB    &kp RET  &lt SYM BACKSPACE         &mt_custom RIGHT_ALT DELETE
             >;
         };
 
@@ -146,10 +146,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &kp HOME   &kp UP    &kp END    &kp SV_LEFT_BRACE          &kp SV_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SV_LEFT_BRACKET        &kp SV_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP  &kp INS   &kp PG_DN  &kp SV_LEFT_PARENTHESIS    &kp SV_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                              &trans    &trans     &trans                     &trans                    &kp KP_N0  &trans
+        &kp K_COPY   &kp HOME   &kp UP    &kp END    &kp SV_LEFT_BRACE          &kp SV_RIGHT_BRACE        &kp KP_N7                    &kp KP_N8                  &kp KP_N9                &kp KP_PLUS
+        &kp K_PASTE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SV_LEFT_BRACKET        &kp SV_RIGHT_BRACKET      &mt RIGHT_SHIFT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_CONTROL KP_N6  &mt RIGHT_GUI KP_MINUS
+&trans  &kp K_UNDO   &kp PG_UP  &kp INS   &kp PG_DN  &kp SV_LEFT_PARENTHESIS    &kp SV_RIGHT_PARENTHESIS  &kp KP_N1                    &kp KP_N2                  &kp KP_N3                &kp KP_MULTIPLY         &kp KP_DIVIDE
+                                &trans    &trans     &trans                     &kp SV_COMMA              &kp KP_N0                    &kp SV_DOT
             >;
         };
 
