@@ -146,10 +146,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp K_COPY   &kp HOME   &kp UP    &kp END    &kp SV_LEFT_BRACE          &kp SV_RIGHT_BRACE        &kp KP_N7                    &kp KP_N8                  &kp KP_N9                &kp KP_PLUS
-        &kp K_PASTE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SV_LEFT_BRACKET        &kp SV_RIGHT_BRACKET      &mt RIGHT_SHIFT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_CONTROL KP_N6  &mt RIGHT_GUI KP_MINUS
-&trans  &kp K_UNDO   &kp PG_UP  &kp INS   &kp PG_DN  &kp SV_LEFT_PARENTHESIS    &kp SV_RIGHT_PARENTHESIS  &kp KP_N1                    &kp KP_N2                  &kp KP_N3                &kp KP_MULTIPLY         &kp KP_DIVIDE
-                                &trans    &trans     &trans                     &kp SV_COMMA              &kp KP_N0                    &kp SV_DOT
+              &kp LC(C)     &kp HOME   &kp UP    &kp END    &kp SV_LEFT_BRACE          &kp SV_RIGHT_BRACE        &kp KP_N7                    &kp KP_N8                  &kp KP_N9                &kp KP_PLUS
+              &kp LC(SV_V)  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SV_LEFT_BRACKET        &kp SV_RIGHT_BRACKET      &mt RIGHT_SHIFT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_CONTROL KP_N6  &mt RIGHT_GUI KP_MINUS
+&kp LC(SV_X)  &kp LC(Z)     &kp PG_UP  &kp INS   &kp PG_DN  &kp SV_LEFT_PARENTHESIS    &kp SV_RIGHT_PARENTHESIS  &kp KP_N1                    &kp KP_N2                  &kp KP_N3                &kp KP_MULTIPLY         &kp KP_DIVIDE
+                                       &trans    &trans     &trans                     &kp SV_COMMA              &kp KP_N0                    &kp SV_DOT
             >;
         };
 
