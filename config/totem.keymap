@@ -34,17 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <16 17 18>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-            layers = <0>;
-        };
-
         game {
             bindings = <&tog 4>;
             key-positions = <32 33 34>;
@@ -143,7 +132,7 @@
             bindings = <
          &kp Q                      &kp W                      &kp F                  &kp P                    &kp B        &kp J    &kp L                     &kp U                        &kp Y                       &kp SV_A_RING
          &mt_custom LEFT_COMMAND A  &mt_custom LEFT_CONTROL R  &mt_custom LEFT_ALT S  &mt_custom LEFT_SHIFT T  &kp G        &kp M    &mt_custom RIGHT_SHIFT N  &mt_custom LEFT_ALT E        &mt_custom RIGHT_CONTROL I  &mt_custom RIGHT_GUI O
-&kp TAB  &kp Z                      &kp X                      &kp C                  &kp D                    &kp V        &kp K    &kp H                     &td_comma                    &td_dot                     &kp SV_O_UMLAUT         &kp SV_A_UMLAUT
+&kp ESC  &kp Z                      &kp X                      &kp C                  &kp D                    &kp V        &kp K    &kp H                     &td_comma                    &td_dot                     &kp SV_O_UMLAUT         &kp SV_A_UMLAUT
                                                                &mt ESC DELETE         &lt 1 SPACE              &lt 3 TAB    &kp RET  &lt 2 BACKSPACE           &mt_custom RIGHT_ALT DELETE
             >;
         };
